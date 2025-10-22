@@ -2,6 +2,13 @@ import gimnasia.*
 
 describe "rutinas" {
 
+method inicialize(){
+	const correrEnLaPlaya = new Running()
+	const remarEnElDelta = new Remo()
+	const remarEnCaminoRemeros = new RemoDeCompeticion()
+	const maratonBA = new Maraton()
+}
+
 //Punto 1: rutinas
 //	const correrEnLaPlaya = // Una actividad de running con intensisdad 1.2
 //	const remarEnElDelta = // Una actividad de remo
@@ -19,10 +26,13 @@ describe "rutinas" {
 //	
 //
 // PUNTO 1
-//	test "1.1 consulta running" {
-//		//correrEnLaPlaya deberia gastar 360 calorias al practicarse por 5 minutos
-//		//correrEnLaPlaya deberia gastar 10200 calorias al practicarse por 90 minutos
-//	}
+	test "1.1 consulta running" {
+//correrEnLaPlaya deberia gastar 360 calorias al practicarse por 5 minutos
+//correrEnLaPlaya deberia gastar 10200 calorias al practicarse por 90 minutos
+	
+	}
+
+
 
 //	test "1.2 consulta maraton" {
 //		//maratonBA deberia gastar 900 calorias al practicarse por 5 minutos
